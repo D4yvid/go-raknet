@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/d4yvid/go-raknet"
+	"github.com/d4yvid/go-raknet-legacy"
 )
 
 func TestPing(t *testing.T) {

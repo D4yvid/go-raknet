@@ -2,7 +2,7 @@ package raknet_test
 
 import (
 	"fmt"
-	"github.com/d4yvid/go-raknet"
+	"github.com/d4yvid/go-raknet-legacy"
 	"testing"
 	"time"
 )

@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/d4yvid/go-raknet/internal/message"
+	"github.com/d4yvid/go-raknet-legacy/internal/message"
 )
 
 // UpstreamDialer is an interface for anything compatible with net.Dialer.

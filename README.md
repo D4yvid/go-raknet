@@ -1,22 +1,22 @@
-# go-raknet
+# go-raknet-legacy
 
 # THIS IS A FORK! The original one is at [this repository](https://github.com/Sandertv/go-raknet)
 
-go-raknet is a library that implements a basic version of the RakNet protocol, which is used for
+go-raknet-legacy is a library that implements a basic version of the RakNet protocol, which is used for
 Minecraft (Bedrock Edition). It implements Unreliable, Reliable and 
 ReliableOrdered packets and sends user packets as ReliableOrdered.
 
-go-raknet attempts to abstract away direct interaction with RakNet, and provides simple to use, idiomatic Go
+go-raknet-legacy attempts to abstract away direct interaction with RakNet, and provides simple to use, idiomatic Go
 API used to listen for connections or connect to servers.
 
 ## Getting started
 
 ### Prerequisites
-**As of go-raknet version 1.13.0, go-raknet requires at least Go 1.21**. Version 1.12.1 of go-raknet is
+**As of go-raknet-legacy version 1.13.0, go-raknet-legacy requires at least Go 1.21**. Version 1.12.1 of go-raknet-legacy is
 the last version of the library that supports Go 1.18 and above.
 
 ### Usage
-go-raknet can be used for both clients and servers, (and proxies, when combined) in a way very similar to the
+go-raknet-legacy can be used for both clients and servers, (and proxies, when combined) in a way very similar to the
 standard net.TCP* functions.
 
 Basic RakNet server:
@@ -24,7 +24,7 @@ Basic RakNet server:
 package main
 
 import (
-	"github.com/d4yvid/go-raknet"
+	"github.com/d4yvid/go-raknet-legacy"
 )
 
 func main() {
@@ -48,7 +48,7 @@ Basic RakNet client:
 package main
 
 import (
-	"github.com/d4yvid/go-raknet"
+	"github.com/d4yvid/go-raknet-legacy"
 )
 
 func main() {
@@ -62,7 +62,7 @@ func main() {
 ```
 
 ### Documentation
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/d4yvid/go-raknet)](https://pkg.go.dev/github.com/d4yvid/go-raknet)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/d4yvid/go-raknet-legacy)](https://pkg.go.dev/github.com/d4yvid/go-raknet-legacy)
 
 ## Contact
 [![Discord Banner 2](https://discordapp.com/api/guilds/623638955262345216/widget.png?style=banner2)](https://discord.gg/U4kFWHhTNR)

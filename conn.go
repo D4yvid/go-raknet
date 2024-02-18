@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/d4yvid/go-raknet/internal/message"
+	"github.com/d4yvid/go-raknet-legacy/internal/message"
 	"net"
 	"sync"
 	"sync/atomic"
